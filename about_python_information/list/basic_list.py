@@ -55,6 +55,19 @@ for i in range(len(number)):
 
 
 
+list_variable = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+list_variable[0] = 10
+
+print(f'this vbara frist list {list_variable}')
+
+list_variable[0:3] = [100, 200, 300]
+
+print(list_variable)
+
+
+if 9 in list_variable:
+    print('yes')
+
 
 # 📚 Python Data Types: List vs Tuple vs Set vs Dictionary
 
